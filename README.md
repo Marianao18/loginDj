@@ -1,13 +1,46 @@
-# React + Vite
+# 🔐 Login App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web de inicio de sesión desarrollada con **Vite + React + TypeScript**, conectada a **Firebase Authentication**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías
 
-## Expanding the ESLint configuration
+- Vite
+- React
+- javascript
+- Firebase Auth
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# loginDj
+---
+
+## 🖥️ Funcionalidades
+
+- Registro de usuarios con correo y contraseña.
+- Inicio de sesión con validación.
+- Autenticación segura con Firebase.
+- Manejo de errores y redirección según sesión.
+
+---
+
+## ⚙️ Instalación rápida
+
+```bash
+# Clona el repositorio
+git clone https://github.com/Marianao18/loginDj.git
+cd loginDj
+
+# Instala dependencias
+npm install
+
+# Crea el archivo de variables de entorno
+cp .env.example .env
+# Agrega tus claves de Firebase en el archivo .env
+
+# Inicia el servidor
+npm run dev
+
+📌 Notas
+Proyecto ideal para aprender integración entre React y Firebase.
+
+Listo para escalar con nuevas rutas o servicios.
+
