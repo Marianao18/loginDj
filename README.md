@@ -1,6 +1,6 @@
 # 🔐 Login App
 
-Aplicación web de inicio de sesión desarrollada con **Vite + React + TypeScript**, conectada a **Firebase Authentication**.
+Aplicación web de inicio de sesión desarrollada con **Vite + React + Javascript conectada a **Firebase Authentication**.
 
 ---
 
